@@ -1,0 +1,23 @@
+{
+  "name": "6.express-ecomm-modular",
+  "version": "1.0.0",
+  "description": "Modular feature-based Express ecommerce - products / cart / wishlist",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.6.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.1",
+    "multer": "^2.2.0"
+  }
+}
